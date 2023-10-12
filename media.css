@@ -6,9 +6,6 @@
         height: fit-content;
         overflow: hidden;
     }
-    .container {
-        max-width: 1024px;
-    }
     .header {
         margin: 10px auto 70px auto;
         padding: 10px 14px;
@@ -76,12 +73,6 @@
     .header__btn {
         width: 100%;
     }
-
-
-
-
-
-
     .mobile {
         display: flex;
         justify-content: space-between;
@@ -102,7 +93,7 @@
     .home__container {
         flex-direction: column;
         gap: 33px;
-        width: 320px;
+        width: 100%;
         height: auto;
     }
     .home__left {
@@ -169,7 +160,6 @@
     .animation {
         display: none;
     }
-
     .home__animation {
         display: flex;
         flex-direction: column;
@@ -183,41 +173,6 @@
     }
     .home__row {
         flex-direction: row;
-    }
-    .home__row-1 {
-        animation: horizontal-1 infinite 30s linear
-    }
-    
-    .home__row-2 {
-        animation: horizontal-2 infinite 20s linear reverse
-    }
-    
-    .home__row-3 {
-        animation: horizontal-3 infinite 15s linear
-    }
-    @keyframes horizontal-1 {
-        0% {
-            transform: translateX(0px)
-        }
-        100% {
-            transform: translateX(-631px)
-        }
-    }
-    @keyframes horizontal-2 {
-        0% {
-            transform: translateX(0px)
-        }
-        100% {
-            transform: translateX(-594px)
-        }
-    }
-    @keyframes horizontal-3 {
-        0% {
-            transform: translateX(0px)
-        }
-        100% {
-            transform: translateX(-654px)
-        }
     }
     .footer {
         position: static;
@@ -255,7 +210,7 @@
     }
     .light-1 {
         top: -100px;
-        right: 150px;
+        right: 50vw;
         width: 81.081px;
         height: 466.334px;
         transform: rotate(-54.311deg);
